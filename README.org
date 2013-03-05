@@ -1,0 +1,22 @@
+This readme contains instructions for installing openstack on a vagrant vm.
+Used during Openstack Foundations training
+
+* Pre Requirements
+  Vagrant http://downloads.vagrantup.com/tags/v1.0.6
+  VirtualBox https://www.virtualbox.org/wiki/Downloads
+
+* Setup
+  Clone this repo
+  : git clone .....
+
+  Create virtual machine
+  : vagrant up
+
+  Ssh into virtual machine
+  : vagrant ssh
+
+  Install openstack
+  : cd folsom
+  : export HOST=127.0.0.1
+  : source singlenode-env.sh
+  : ./singlenode.sh

@@ -7,7 +7,8 @@ Used during Openstack Foundations training
 
 * Setup
   Clone this repo
-  : git clone .....
+  : git clone https://github.com/rkoster/vagrant-openstack-getting-started.git
+  : cd vagrant-openstack-getting-started
 
   Create virtual machine
   : vagrant up
